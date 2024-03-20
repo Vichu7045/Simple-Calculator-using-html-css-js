@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    background: black;
+}
+ 
+#inputfield{
+    width: 200px;
+    height: 60px;
+    background-color:lightskyblue;
+    font-size: x-large;
+}
+
+#clearbtn{
+ color: black;
+ background-color: red;
+ width: 66px;
+ height: 53px;
+ margin-left: 6px;
+ font-size: x-large;
+
+}
+
+#num{
+    width: 66px;
+    height: 53px;  
+    font-size: x-large;  
+}
+#operator{
+    width: 66px;
+    height: 53px;
+    background-color:orange;
+    font-size: x-large;
+}
+#equal{
+    width: 66px;
+    height: 53px;
+    background-color: lightblue;   
+    font-size: x-large; 
+}
+
+#numbersop{
+    padding: 15px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 3px;
+    background-color: antiquewhite;
+
+}
+#row1{
+    padding-left: 16px;
+}

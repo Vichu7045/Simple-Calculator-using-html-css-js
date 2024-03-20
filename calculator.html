@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+ <h3>CALCULATOR</h3>
+<div id="main">
+
+ <div id="numbersop">
+  
+ <div id="row1 ">
+  <input type="text" id="inputfield" readonly>
+  <button id="clearbtn"onclick="clearvalue(' ')">C</button>
+  </div>
+  
+ <div id="row2">
+ <button id="num" onclick="inputNumber('7')">7</button>
+ <button id="num" onclick="inputNumber('8')">8</button>
+ <button id="num" onclick="inputNumber('9')">9</button>
+ <button id="operator"onclick="inputNumber('/')">/</button>
+ </div>
+ 
+  <div id="row3">
+    <button id="num"onclick="inputNumber('4')">4</button>
+    <button id="num" onclick="inputNumber('5')">5</button>
+    <button id="num"onclick="inputNumber('6')">6</button>
+    <button id="operator"onclick="inputNumber('*')">*</button>
+  </div>
+
+  <div id="row4">
+        <button id="num"onclick="inputNumber('1')">1</button>
+        <button id="num"onclick="inputNumber('2')">2</button>
+        <button id="num"onclick="inputNumber('3')">3</button>
+        <button id="operator"onclick="inputNumber('-')">-</button>
+  </div>
+
+  <div id="row5">
+    <button id="num"onclick="inputNumber('0')">0</button>
+    <button id="num"onclick="inputNumber('.')">.</button>
+    <button id="equal" onclick="finalResult()">=</button>
+    <button id="operator"onclick="inputNumber('+')">+</button>
+    </div>
+
+ </div>
+ 
+</div>
+
+<script src="calculator.js"></script>
+</body>
+</html>
